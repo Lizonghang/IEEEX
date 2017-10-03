@@ -12,4 +12,4 @@ Given a sequence of colors $c\_1, c\_2, …, c\_N$ that Bob needs, in the order 
 
 Bob may ask you to compute this number for a few different scenarios, but not many. After all, he only needs to do this until he gets his first paycheck, at which point all his effort will have been worth the trouble, and he can go buy more paint brushes.
 
-<script type="text/javascript"<src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
