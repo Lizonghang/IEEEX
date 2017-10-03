@@ -23,15 +23,6 @@ int minChange(vector<int> &colors){
     }
     count[0][num_color][num_color] = 0;
     
-//    cout << "Init States" << endl;
-//    for (int c1=0; c1<num_color+1; c1++) {
-//        for (int c2=0; c2<num_color+1; c2++) {
-//            cout << count[0][c1][c2];
-//            if(c2 != num_color) cout << '\t';
-//            else cout << endl;
-//        }
-//    }
-    
     for (int t=1; t<=colors.size(); t++) {
         for (int c1=0; c1<num_color+1; c1++) {
             for (int c2=0; c2<num_color+1; c2++) {
@@ -46,16 +37,6 @@ int minChange(vector<int> &colors){
                 else count[t][c1][c2] = max_change;
             }
         }
-//        cout << "time:" << t << endl;
-//        for (int c1=0; c1<num_color+1; c1++) {
-//            for (int c2=0; c2<num_color+1; c2++) {
-//                cout << count[t][c1][c2];
-//                if(c2 != num_color) cout << '\t';
-//                else cout << endl;
-//            }
-//        }
-//        char temp;
-//        cin >> temp;
     }
     
     int min_change = max_change;
