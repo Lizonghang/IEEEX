@@ -6,4 +6,9 @@ She needs your help to generate the list of phone numbers of such folks. She has
 
 In order to calculate the distance between her stops and her subscribers, she wants you to use the most recent location available for each subscriber. To calculate the distance, you should use the Haversine formula:
 
-<code>d=2r×arcsin(sqrt(sin((latitude1-latitude2)/2)^2+cos(latitude1)×cos(latitude2)×sin((longitude1-longitude2)/2))^2)</code>
+```
+d=2r×arcsin(sqrt(
+    sin((latitude1-latitude2)/2)^2 +
+    cos(latitude1)×cos(latitude2)×sin((longitude1-longitude2)/2)^2
+))
+```
