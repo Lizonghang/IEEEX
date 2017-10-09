@@ -68,4 +68,4 @@ To ensure <code>H20,CO2,C6H12O6</code> are integers:
  [C6H12O6]]         [ 4 , 1 ,-2]]         [o]]
 ```
 
-and finally output <code>H2O\_c/4</code>, <code>CO2\_c/4</code>, <code>C6H12O6\_c/24</code> or <code>Error</code> if negative value occurs.
+and finally output <code>H2O\_c/4 CO2\_c/4 C6H12O6\_c/24</code> or <code>Error</code> if negative value occurs.
