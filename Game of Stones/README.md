@@ -63,7 +63,7 @@ The sample input can be annotated as follows:
 
 ### Analysis
 
-Suppose f(N) represents total times of split of a heap which contains N Stones. We can conclude that: No matter how to split the piles, there are N//2(divisible) split opportunities, such as f(0)=0, f(1)=0, f(3)=1, f(5)=2, f(7)=3, f(9)=4 and so on.
+Suppose f(N) represents total times of split of a heap which contains N stones. We can conclude that no matter how to split the piles, there are N//2(divisible) split opportunities, such as f(0)=0, f(1)=0, f(3)=1, f(5)=2, f(7)=3, f(9)=4 and so on.
 
 For example:
 
