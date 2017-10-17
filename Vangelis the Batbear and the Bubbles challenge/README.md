@@ -1,8 +1,5 @@
 # Vangelis the Batbear and the Bubbles challenge
 
-<center>Time limit: 1000 ms</center>
-<center>Memory limit: 256 MB</center>
-
 Good evening master Wayne.
 
 Joker and his gang attended Black Hat USA 2017 where they learned of a new way on how to damage our city! Specifically, tomorrow night they will try to damage the water pumps of Gotham using bubbles!
@@ -17,6 +14,8 @@ On the first line there will be an integer <code>t</code>, the number of test ca
 
 For each test case you will have to write one line that contains an integer, in the case where there is a loop you will write the number 1 or else you will write the number 0.### Constraints and notes* 1≤t≤1000
 * 1≤n≤1000 * 1≤m≤10000 * 0≤a,b≤n−1 * There can be multiple edges or self-loops. In this case we consider the graph to contain a loop.
+* Time limit: 1000 ms
+* Memory limit: 256 MB
 
 ### Input
 
@@ -37,6 +36,6 @@ For each test case you will have to write one line that contains an integer, in 
 
 ### Explanation
 
-Test case #1<center>![](fig1.png)</center>
+Test case #1![](fig1.png)
 
-Test case #2<center>![](fig2.png)</center>
+Test case #2![](fig2.png)
