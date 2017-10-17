@@ -13,7 +13,9 @@ Each of the next 26 lines has one capital English letter (not necessarily in alp
 
 ### Standard output
 
-You should print a single integer, which is the length in cm of the thread needed to express the message given in the input as stated above as a decimal, rounded up to the next integer number. Thread starts from point (0,0) and ends at the final given letter.### Constraints and notes* High precision variables might be needed for you floating point operations (e.g. in C/C++ using double is preferred)### Input & Output
+You should print a single integer, which is the length in cm of the thread needed to express the message given in the input as stated above as a decimal, rounded up to the next integer number. Thread starts from point (0,0) and ends at the final given letter.### Constraints and notes* High precision variables might be needed for you floating point operations (e.g. in C/C++ using double is preferred)
+* Time limit: 3000 ms
+* Memory limit: 64 MB### Input & Output
 
 input:
 
