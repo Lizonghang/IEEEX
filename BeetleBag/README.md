@@ -13,6 +13,8 @@ Output will have t lines containing the maximum fighting power from Copperman's 
 * 1≤n≤20
 * 1≤w≤100 for 1≤i≤n
 * 1≤f≤1000 for 1≤i≤n
+* Time limit: 2500 ms
+* Memory limit: 30 MB
 
 ### Input & Output
 
